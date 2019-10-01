@@ -21,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
+            android:background="#00FFFFFF"
             android:gravity="center"
             android:shadowColor="#000000"
             android:shadowDx="1"
@@ -813,14 +814,17 @@
 
     <ImageButton
         android:id="@+id/refresher"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        app:srcCompat="@android:drawable/ic_menu_rotate" />
+        android:adjustViewBounds="false"
+        android:backgroundTint="#00FFFFFF"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/refresh4" />
 
 </RelativeLayout>
